@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgb(149, 0, 255);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+.headimg{
+    width: 10rem;
+    height: 10rem;
+}
+
+.play{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(149, 0, 255);
+    text-shadow: 1px 1px black;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.dice{
+    display: flex;
+    justify-content: center;
+}
+
+.p1{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 100px;
+}
+
+.p2{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(149, 0, 255);
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 1px 1px black;
+}
+
+p{
+    margin: 10px;
+}
+
+button{
+    border: none;
+    color: rgb(149, 0, 255);
+    text-shadow: 1px 1px black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: aliceblue;
+    font-size: 3rem;
+}
